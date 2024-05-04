@@ -11,6 +11,7 @@
 		ADADD7832BE48A9E005199D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD7822BE48A9E005199D6 /* ContentView.swift */; };
 		ADADD7852BE48AA2005199D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADADD7842BE48AA2005199D6 /* Assets.xcassets */; };
 		ADADD7882BE48AA2005199D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADADD7872BE48AA2005199D6 /* Preview Assets.xcassets */; };
+		ADADD78F2BE50A28005199D6 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADADD78E2BE50A28005199D6 /* ImageProcessing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ADADD7822BE48A9E005199D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADADD7842BE48AA2005199D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADADD7872BE48AA2005199D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADADD78E2BE50A28005199D6 /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ADADD7802BE48A9E005199D6 /* RemoveBackgroundApp.swift */,
 				ADADD7822BE48A9E005199D6 /* ContentView.swift */,
+				ADADD78E2BE50A28005199D6 /* ImageProcessing.swift */,
 				ADADD7842BE48AA2005199D6 /* Assets.xcassets */,
 				ADADD7862BE48AA2005199D6 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADADD7832BE48A9E005199D6 /* ContentView.swift in Sources */,
+				ADADD78F2BE50A28005199D6 /* ImageProcessing.swift in Sources */,
 				ADADD7812BE48A9E005199D6 /* RemoveBackgroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RemoveBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = A7X76UJ98R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RemoveBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = A7X76UJ98R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
